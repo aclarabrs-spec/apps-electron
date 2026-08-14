@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 338px;
+  height: 368px;
+  background: transparent;
+  overflow: hidden;
+  -webkit-app-region: drag;
+  font-family: monospace;
+}
+
+.card {
+  width: 330px;
+  height: 360px;
+    background: rgba(200, 175, 227, .82);
+    backdrop-filter: blur(8px);
+
+  border: 4px solid white;
+  border-radius: 28px;
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  height: 62px;
+  background: #bf8ee0;
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+  color: #57305f;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content {
+
+    position: relative;
+    height: calc(100% - 62px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-icon {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  width: 74px;
+  image-rendering: pixelated;
+}
+
+
+    .animal
+    {
+    width: 180px;
+    margin-top: 30px;
+    image-rendering: pixelated;
+}
+
+.message {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 18px;
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 9px 8px;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+
